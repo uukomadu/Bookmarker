@@ -1,0 +1,156 @@
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  color: #454545;
+  font-family: 'Lato', sans-serif;
+  background-color: #e6e6e6;
+  margin: 0;
+}
+
+/* --- Header --- */
+
+.bookmark {
+  color: #fff;
+  background: #2f303b;
+  text-align: center;
+  padding: 3em;
+}
+
+.bookmark h1 {
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: .0875em;
+}
+
+/* --- Form --- */
+
+form {
+  border-top: 5px solid #2f303b;
+  background-color: #c1bfbf;
+  text-align: center;
+  padding: 50px 1.5625em;
+  margin-top: 4.6875em;
+  margin-bottom: 25px;
+  box-shadow: 0 1px .625em rgba(0,0,0,.2);
+}
+
+form h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 935px) {
+  form {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+}
+
+label,
+input {
+  width: 100%;
+}
+
+label {
+  font-size: .75em;
+  display: block;
+  letter-spacing: .0625em;
+  margin-bottom: .3125em;
+  text-align: left;
+}
+
+input {
+  color: #454545;
+  background: #e6e6e6;
+  padding: .3125em;
+  outline: 0;
+  border: none;
+  height: auto;
+  font-size: 1.25em;
+  margin-bottom: .625em;
+}
+
+/* --- Form Submit Button --- */
+
+button {
+  width: 100%;
+  border: none;
+}
+
+.btn,
+.btn1,
+.btn2 {
+  font-size: 1.25em;
+  padding: .9375em 0;
+}
+
+.btn,
+.btn1 {
+  color: #fff;
+  background-color: #2f303b;
+}
+
+.btn1,
+.btn2 {
+  font-size: 12px;
+  padding: 7px 25px;
+  text-decoration: none;
+  margin-left: 15px;
+  letter-spacing: 1px;
+}
+
+.btn2 {
+  color: #2f303b;
+  background-color: #91ca6f;
+}
+
+.btn2:hover {
+  background-color: #9edb79;
+}
+
+.btn:hover,
+.btn1:hover {
+  background-color: #373845;
+}
+
+.btn:hover,
+.btn1:hover,
+.btn2:hover {
+  box-shadow: 0 .25em .625em rgba(0,0,0,.2);
+}
+
+/* --- Footer --- */
+footer {
+    border-top: 1px solid #c1bfbf;
+    margin-top: 50px;
+}
+
+/* --- Container --- */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.background {
+  width: 100%;
+  background-color: #c1bfbf;
+  padding: .9375em;
+  margin-bottom: 25px;
+  box-shadow: 0 .0625em .0625em rgba(0,0,0,.2);
+}
+
+@media (min-width: 935px) {
+  .background,
+  footer {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 1.5625em;
+  }
+}
